@@ -89,7 +89,7 @@ const HourlyForecast = ({ data, unitSystem }) => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-3 overflow-y-auto pr-2 custom-scrollbar flex-1 justify-between">
+            <div className="flex flex-col gap-3 overflow-y-auto pr-2 custom-scrollbar flex-1">
                 {filteredHours.map((hour, idx) => (
                     <div
                         key={idx}
