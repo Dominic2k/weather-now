@@ -1,8 +1,5 @@
 # 🌤️ Weather Now - Ứng dụng Dự báo Thời tiết Hiện đại
 
-![Weather Now Banner](src/assets/images/desktop-design-metric.jpg)
-*(Bạn có thể thay thế link ảnh trên bằng ảnh chụp màn hình thực tế dự án của bạn)*
-
 ## 👋 Giới thiệu
 
 **Weather Now** là một ứng dụng web xem thời tiết được thiết kế với giao diện hiện đại (Dark Mode), tối ưu trải nghiệm người dùng (UX) và đảm bảo tính thẩm mỹ cao (Pixel Perfect).
