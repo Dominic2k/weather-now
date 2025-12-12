@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #0b131e;
+    color: #ffffff;
+    font-family: "Inter", sans-serif; /* Đảm bảo bạn đã nhúng font này vào index.html */
+}
+
+/* Custom Scrollbar cho đẹp giống design */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #35455e;
+    border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px; /* Thanh cuộn mảnh hơn */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #4b5563; /* Màu xám tối */
+    border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+}
