@@ -2,7 +2,7 @@ import React from "react";
 import { format } from "date-fns";
 import WeatherIcon from "./WeatherIcon";
 import { getTemp } from "../utils/unitConversion";
-import bgImage from "../assets/images/bg-today-large.svg";
+import { bgToday } from "../assets/images";
 
 const CurrentWeather = ({ data, unitSystem }) => {
     const displayTemp = getTemp(data.temp, unitSystem.temp);
@@ -10,7 +10,7 @@ const CurrentWeather = ({ data, unitSystem }) => {
     return (
         <div
             className="rounded-[30px] p-8 md:p-10 flex flex-col md:flex-row justify-between items-center relative overflow-hidden shadow-2xl min-h-[280px] bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${bgImage})` }}
+            style={{ backgroundImage: `url(${bgToday})` }}
         >
             <div className="z-10 text-center md:text-left">
                 <h2 className="text-4xl font-bold text-white mb-2">
